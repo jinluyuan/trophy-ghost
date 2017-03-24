@@ -56,8 +56,9 @@
 <script>
 
 var disqus_config = function () {
-this.page.url = this.page.url = '{{url absolute="true"}}'
-this.page.identifier = this.page.identifier = 'ghost-{{id}}';}
+this.page.url = '{{url absolute="true"}}'
+this.page.identifier = 'ghost-{{id}}'
+};
 
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
@@ -75,7 +76,7 @@ s.setAttribute('data-timestamp', +new Date());
   <section class="next">
     <a class="next__link" href="{{url}}" style="background-image: url('{{image}}');">
       <div class="next__container">
-        <span>Read Next</span>
+        <span>Read previous</span>
         <h2>{{title}}</h2>
       </div> 
     </a>
